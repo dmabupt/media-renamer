@@ -1,0 +1,9 @@
+version: '3.8'
+
+services:
+  media-renamer:
+    build: .
+    volumes:
+      - ./input:/input
+      - ./output:/output
+    command: ["/input", "/output"]

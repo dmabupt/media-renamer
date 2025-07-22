@@ -1,0 +1,26 @@
+{
+  "name": "media-renamer",
+  "version": "1.0.0",
+  "description": "Multi-threaded media file renaming and organization tool",
+  "main": "src/index.js",
+  "bin": {
+    "media-renamer": "./bin/media-renamer"
+  },
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "exiftool-vendored": "^18.0.0",
+    "minimist": "^1.2.8"
+  },
+  "keywords": [
+    "media",
+    "rename",
+    "organize",
+    "exif",
+    "photos",
+    "videos"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}
