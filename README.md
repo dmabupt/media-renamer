@@ -1,5 +1,8 @@
 # Media File Renamer
 A command-line tool to rename and organize media files based on their creation date from EXIF data. Automatically categorizes photos and videos into separate directories.
+
+![npm version](https://img.shields.io/npm/v/media-renamer)
+![npm license](https://img.shields.io/npm/l/media-renamer)
 ## Features
 - 📸 Automatic detection of photo and video files
 - ✨ Intelligent renaming based on creation date
