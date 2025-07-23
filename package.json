@@ -4,7 +4,7 @@
   "description": "Multi-threaded media file renaming and organization tool",
   "main": "src/index.js",
   "bin": {
-    "media-renamer": "./bin/media-renamer"
+    "media-renamer": "bin/media-renamer"
   },
   "scripts": {
     "start": "node src/index.js"
@@ -21,6 +21,15 @@
     "photos",
     "videos"
   ],
-  "author": "Your Name",
-  "license": "MIT"
+  "author": "Xu Meng",
+  "license": "MIT",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dmabupt/media-renamer.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dmabupt/media-renamer/issues"
+  },
+  "homepage": "https://github.com/dmabupt/media-renamer#readme"
 }
